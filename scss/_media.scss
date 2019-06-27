@@ -1,0 +1,52 @@
+@media (max-width: 800px) {
+  .container {
+    width: 75%;
+  }
+}
+
+@media (max-width: 600px) {
+  #survey {
+    .survey-header {
+      &-title {
+        font-size: 0.9rem;
+      }
+    }
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .form {
+    &-radio-label {
+      font-size: 0.6rem;
+    }
+    &-input {
+      font-size: 0.8rem;
+    }
+    &-description {
+      font-size: 0.8rem;
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  #survey {
+    .survey-header {
+      &-title {
+        font-size: 0.8rem;
+      }
+    }
+  }
+  .form {
+    &-radio-label {
+      font-size: 0.5rem;
+    }
+    &-input {
+      font-size: 0.7rem;
+    }
+    &-description {
+      font-size: 0.7rem;
+    }
+  }
+}
