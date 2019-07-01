@@ -15,7 +15,7 @@ a {
     border-bottom: 1px solid #16a04b; }
 
 .container {
-  background: #1d1d1d;
+  background: rgba(29, 29, 29, 0.92);
   width: 50%;
   height: 100%;
   border-radius: 10px;
